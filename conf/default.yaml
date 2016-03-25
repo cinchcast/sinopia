@@ -47,3 +47,5 @@ logs:
   - {type: stdout, format: pretty, level: http}
   #- {type: file, path: sinopia.log, level: info}
 
+listen:
+  - 0.0.0.0:4873
